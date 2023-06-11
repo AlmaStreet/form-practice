@@ -1,0 +1,85 @@
+.main {
+    display: flex;
+}
+
+.header {
+    margin: 40px;
+}
+
+.logo-main {
+    width: 40%;
+    border: 2px solid red;
+}
+
+.logo-container {
+    background-color: rgb(0, 0, 0, 0.5);
+    display: flex;
+    height: 10%;
+    position: relative;
+    top: -500px;   
+}
+
+.credits {
+    position: relative;
+    bottom: 200px;    
+}
+
+.logo-title {
+    color: white;
+    font-size: 100px;
+    align-self: center;
+}
+
+
+
+.content-main {
+    /* flex: 1; */
+    border: 2px solid black;
+}
+
+.bg-image {
+    width: 100%;
+}
+
+div > label {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-color: lightcyan;
+}
+
+.form-content {
+    border: 3px solid black;
+    background-color: white;
+}
+
+.form-title {
+    margin: 10px 30px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.form-labels {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+.label {
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.form-button {
+    margin: 50px;
+}
+
+.form-button>button {
+    /* background-color: green; */
+    background-color: green;
+    color: white;
+    margin: 20px;
+}
